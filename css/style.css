@@ -134,9 +134,18 @@ nav {
 .box h2 { 
       display: flex; 
       justify-content: center;
+      
+
       text-transform: lowercase;
       font-size: large;
-      padding: 10px;
+
+      background-color: #ffdd99;
+      padding: 2px;
+      margin: 1rem;
+      border-end-start-radius: 20%;
+      /* I hate the look but at least it's visible. Will improve on it. */
+      
+     
       
 }
 /*can't see the text infront of the image, NOT good 
