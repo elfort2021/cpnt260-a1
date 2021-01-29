@@ -1,0 +1,264 @@
+* {
+  margin: 0px; 
+  padding: 0px; 
+  box-sizing: border-box;
+}
+
+body { 
+  font-family:'Poppins', sans-serif;
+  background-image: url(../img/floral.jpg);
+  background-size: contain;
+  background-repeat: repeat-y;
+  background-position: center;
+  background-blend-mode: difference;
+  
+
+  
+}
+
+/* remove basic styles */ 
+
+nav {
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  font-family:'Poppins', sans-serif;
+  background-color: salmon; 
+  position: sticky;
+ 
+
+}  
+
+.logo {
+ 
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+
+}
+
+
+.logo, .header-image { 
+  display: flex; 
+
+}
+  
+.nav-links {
+  display: flex;
+  width: 40%; 
+  justify-content: space-around;
+}
+
+.nav-links li {
+  list-style: none; 
+}
+
+
+.nav-links a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none; 
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 14px;
+
+}
+
+.nav-links li :hover { 
+  color: black; 
+  
+
+}
+
+.hamburger-menu { 
+  display: flex; 
+  background-color: salmon;
+  margin: 1rem;
+
+
+}
+
+/* 
+.line1, .line2, .line3 { 
+  display: flex;
+  flex-flow: column wrap;
+  width: 25px;
+  height: 1px;
+  background-color: white;
+  margin: 5px; 
+  
+   changed the hamburger menu from lines to svg */
+
+
+
+.button1 { 
+  display: block;
+  color: black; 
+  background-color:#ffdd99;
+
+  text-decoration: none;
+  text-transform: lowercase;
+  letter-spacing: 2px; 
+  font-weight: bold;
+
+  padding: 20px;
+  border-radius: 50px;
+  display: inline-block; 
+
+  opacity: 70%; 
+  flex-basis: 1rem;
+  
+}
+
+.button :hover { 
+      opacity: 100%; 
+
+}
+
+.box { 
+  
+  padding: 20px; 
+  margin: 10vh;
+  text-align: center; 
+  color: black;    
+
+
+  font-size: 20px;
+  text-transform: uppercase;
+  
+
+}
+.box h2 { 
+      display: flex; 
+      justify-content: center;
+      text-transform: lowercase;
+      font-size: large;
+      padding: 10px;
+      
+}
+/*can't see the text infront of the image, NOT good 
+*/
+
+
+.text-main { 
+  margin: 20px;
+  padding: 0 100px; 
+  display: flex; 
+  flex-wrap: wrap;
+  position: absolute;
+  
+  /* experiments that didn't work with background image
+  background-image: url(/img/floral.jpg); */
+  /* background-color: gray;
+  background-size: cover;
+*/
+}
+
+
+
+
+footer {
+  position: fixed;
+  width: 100%;
+  background-color: salmon;
+  opacity: 50%; 
+  padding: .5 rem;
+  bottom: 0;
+  text-align: center; }
+
+
+  
+
+
+
+
+@media screen and (min-width: 765px)
+{
+.burger {
+  display: none;
+  }
+}
+
+
+@media screen and (max-width: 765px) { 
+ .nav-links {
+display: none;
+ }
+ .button1 {
+     display: none;
+ }
+ .box { 
+     margin-top: auto;
+ }
+ .box h2 { 
+   margin-top: 2em;
+ }
+ section { 
+      max-width: 95ch;
+     
+
+ }
+}
+
+
+/* Why in the world is my text wrapping like that? */ 
+
+/*
+
+@media screen and (max-width:1024px) {
+  .nav-links {
+    /* width: 60%;  
+      display: none; 
+  } 
+}
+@media screen and (min-width:1024px) {
+  .burger {
+      display: none;
+  }
+  
+  
+}
+  
+
+@media screen and (max-width: 786px){
+  body{
+    overflow-x: hidden;
+
+}
+
+ .nav-links { 
+position: absolute; 
+  right: 0px; 
+  height: 92vh; 
+  top: 8vh; 
+  background-color: salmon; 
+  display: flex;
+  /* flex-direction: column; 
+  align-items: center;
+  width: 50%; 
+  transform: translateX(100%);
+  flex-flow: row nowrap; 
+
+  }
+  
+  
+ }
+
+.nav-links li{ 
+opacity: 0; 
+
+}
+.burger {
+  display: inline-block; 
+  
+}
+
+      
+.button {
+  display: none; 
+  
+
+  }
