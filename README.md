@@ -28,3 +28,7 @@ https://unsplash.com/photos/MT7W2ahnwZI
 
 Photo by Evie S. on Unsplash
 https://unsplash.com/photos/uF2j60rp6Rs
+
+Ultimate supportwork and fellow cryclub memebers: 
+Erica & Kyle,  MVPs for life. Honourable mentions: Karen, Swapna. Good people. 
+
